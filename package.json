@@ -4,8 +4,11 @@
   "description": "TÜBİTAK 2204-A BirimMat Akıllı Tüketici Asistanı",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
-  },
+  "start": "node server.js",
+  "postinstall": "npx puppeteer browsers install chrome"
+},
+
+  
   "keywords": [],
   "author": "",
   "license": "ISC",
